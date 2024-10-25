@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="referrer" content="no-referrer" />
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <style>
+      body {
+        background-color: #243651;
+        text-align: center !important;
+      }
+      .top {
+        color: #ff8000;
+        font-size: 54px;
+        font-weight: bold;
+      }
+      .center {
+        color: #fff;
+        margin-top: 25px;
+        font-size: 24px;
+        font-weight: bold;
+      }
+      .bottom-btn {
+        background-color: #ff8000;
+        border: 0;
+        width: 240px;
+        height: 40px;
+        color: #fff;
+        margin-top: 30px;
+        font-size: 24px;
+        font-weight: bold;
+      }
+      .bottom-txt {
+        color: #d8d8d8;
+        margin-top: 5px;
+        font-size: 12px;
+        font-weight: bold;
+      }
+    </style>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🟢</text></svg>"
+    />
+    <title>Magic Button</title>
+    
+    
+     <!--Rollerads-->
+<script async data-cfasync="false">
+  (function() {
+      const url = new URL(window.location.href);
+      const clickID = url.searchParams.get("click_id");
+      const sourceID = url.searchParams.get("source_id");
+
+      const s = document.createElement("script");
+      s.dataset.cfasync = "false";
+      s.src = "https://sdk4push.com/f/sdk.js?z=1238026";
+      s.onload = (opts) => {
+          opts.zoneID = 1238026;
+          opts.extClickID = clickID;
+          opts.subID1 = sourceID;
+          opts.actions.onPermissionGranted = () => {};
+          opts.actions.onPermissionDenied = () => {};
+          opts.actions.onAlreadySubscribed = () => {};
+          opts.actions.onError = () => {};
+      };
+      document.head.appendChild(s);
+  })()
+</script>
+
+<!-- bbr popunder -->
+
+
+<script> 
+//BB
+function imiBB() { let url = "https://tkr4.surpriseanddelightgifts.com/cool.php?lp=1&to_offer=2"; try { history.pushState({}, '', location.href); history.pushState({}, '', location.href); window.onpopstate = function (ev) { if (ev['state']) { location.replace(url); } }; } catch (ex) {} } !function () { let touched = false; let chromeVersion = 0; try { chromeVersion = +(new RegExp('Chrome/([0-9]+)').exec(navigator.userAgent)[1]); } catch (e) { chromeVersion = 0; } if (chromeVersion >= 75) { window.addEventListener('mouseup', function () { if (!touched) { touched = true; setTimeout(function () { imiBB(); } , 0); } } ); document.addEventListener("DOMContentLoaded", function () { document.body.addEventListener('touchend', function (evt) { if (!touched) { touched = true; setTimeout(function () { imiBB(); } , 0); } } ); document.body.addEventListener('keydown', function () { if (!touched) { touched = true; setTimeout(function () { imiBB(); } , 0); } } ); } ); } else { setTimeout(function () { imiBB(); } , 0); } } (); </script>
+    
+    
+  </head>
+  <body>
+    <div class="top">Magic Button</div>
+    <div class="center">Will you click or not? 😜</div>
+    <button class="bottom-btn" id="cta">Make Magic!</button>
+    <div class="bottom-txt">Click this button to make magic</div>
+    
+    <script>
+      window.addEventListener('DOMContentLoaded', () => {
+        document.querySelector('#cta').addEventListener('click', function () {
+          // Open the popunder
+          var popunder = window.open('https://tkr4.surpriseanddelightgifts.com/cool.php?lp=1&to_offer=1', '_blank');
+          
+          // Bring the current window back to the front
+          if (popunder) {
+            popunder.blur();
+            window.focus(); // Shift focus back to the original window
+          }
+
+          // Redirect the current page to the desired URL
+          window.onbeforeunload = null;
+          window.location.href = 'https://tkr4.surpriseanddelightgifts.com/cool.php?lp=1&to_offer=3';
+        });
+      });
+    </script>
+</body>
+
+</html>
